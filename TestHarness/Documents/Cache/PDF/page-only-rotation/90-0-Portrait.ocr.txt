@@ -1,0 +1,80 @@
+
+State of California
+IFB STPD 12-001-B, C3-B-12-10-TS-12
+Statewide Technology Procurement Division
+SOW Technical Requirements
+TECHNICAL REQUIREMENTS
+CATEGORY 2 - NETWORK BASED WEB CONFERENCING SERVICES
+TABLE OF CONTENTS
+2.1
+OVERVIEW ................
+2.1.1
+BIDDER RESPONSE REQUIREMENTS ..
+2.1.2
+DESIGNATION OF REQUIREMENTS ........
+2.1.3
+PACIFIC TIME ZONE.........
+.... 2
+2.2
+WEB CONFERENCING TECHNICAL REQUIREMENTS ...........
+.... 2
+2.2.1
+2.2.1.1
+WEB CONFERENCING ........#414::::"#1515:545
+Web Conferencing Classes of End-Users .........
+2.2.1.2
+2.2.1.3
+Web Conference Types .........
+Web Conferencing Features .....
+2.2.1.3.1 Meeting Initiation ...
+2.2.1.3.2 Content Sharing..
+2.2.1.3.3 Whiteboard ....
+2.2.1.3.4 Polling.....
+2.2.1.3.5 Chat................"
+.. ... 4
+2.2.1.3.6 Participant List...
+.... 4
+2.2.1.3.7 Video .........
+... 4
+2.2.1.3.8 Recording ....
+2.2.1.3.9 Cross-Platform...
+..... 4
+2.2. 1.3.10 Integrated Audio ...
+2.2.1.3.11 Mobility ......."
+2.2.1.3.12 Secure Sockets Layer (SSL)..
+2.2.1.3.13 Microsoft Outlook Integration .
+2.2.1.3.14 PC to PC Calling ........
+...5
+2.3
+SERVICE LEVEL AGREEMENTS (SLA ) ........
+..... 10
+2.3.1
+SERVICE LEVEL AGREEMENT FORMAT .... .4.....* * *#1:"."*:"
+2.3.2
+TECHNICAL REQUIREMENTS VERSUS SLA OBJECTIVES ...........................13
+2.3.3
+TWO METHODS OF OUTAGE REPORTING: CUSTOMER OR CONTRACTOR...... 14
+2.3.4
+BIDDER RESPONSE TO SERVICE LEVEL AGREEMENTS.................
+2.3.5
+TECHNICAL SLA GENERAL REQUIREMENTS .............
+... ...... 14
+2.3.6
+TECHNICAL SERVICE LEVEL AGREEMENTS.......
+. ...... 16
+2.3.6.1
+2.3.6.2
+Provisioning (M-S) ....... . ."
+....... 16
+.... 18
+2.3.6.3
+Unsolicited Service Enhancement SLAs ..
+Proposed Unsolicited Offering.....................:":"
+...... 18
+2.3.6.4
+Contract Amendment Service Enhancement SLAs ...
+.... 18
+Amendment #2 Rev. 10/15/15
+Subcategory 2 Web Conferencing
+NWN
+Page i

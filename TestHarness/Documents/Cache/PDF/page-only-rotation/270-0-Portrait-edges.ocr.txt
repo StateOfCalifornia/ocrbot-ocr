@@ -1,0 +1,9 @@
+
+Upper Left
+Upper Right
+Seascape 270
+Size: 11 X 8.5
+Rotated: 8.5 X 11
+Text: Portrait
+Lower Left
+Lower Right

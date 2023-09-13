@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B045328B-331C-47AF-BB9E-AB25C338D2E1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestHarness</RootNamespace>
+    <AssemblyName>TestHarness</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UAT Pre-release|AnyCPU'">
+    <OutputPath>bin\UAT Pre-release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ITextTestCases.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestHarness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Resources\AcrobatBatch\**">
+      <Link>Resources\AcrobatBatch\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\Resources\Settings\OCRBotSettings.json">
+      <Link>Resources\Settings\%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDT.Acrobat\CDT.Acrobat.csproj">
+      <Project>{DF1EE4D4-DBD6-4755-9340-F0511471ADDF}</Project>
+      <Name>CDT.Acrobat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.Data\CDT.Data.csproj">
+      <Project>{6C72C061-5450-4641-A34D-FF841704637C}</Project>
+      <Name>CDT.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.DocumentAccessibility\CDT.Accessibility.Remediation.csproj">
+      <Project>{d9934c30-c8d3-4642-9612-6b09a9a439ed}</Project>
+      <Name>CDT.Accessibility.Remediation</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.Helpers\CDT.Helpers.csproj">
+      <Project>{d58b8c08-4c20-4494-bd34-f12db4bcb025}</Project>
+      <Name>CDT.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.Log\CDT.Log.csproj">
+      <Project>{5e4e1a43-6671-488c-b7df-46a3b977ce75}</Project>
+      <Name>CDT.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.OCR.MicrosoftAzure\CDT.OCR.Microsoft.Azure.csproj">
+      <Project>{10bad586-f6e9-481f-a1ff-54812636f7b9}</Project>
+      <Name>CDT.OCR.Microsoft.Azure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDT.PDF.IText\CDT.PDF.IText.csproj">
+      <Project>{47a3dc16-fdfa-4b77-89cd-7c4373510ced}</Project>
+      <Name>CDT.PDF.IText</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="itext7">
+      <Version>7.1.10</Version>
+    </PackageReference>
+    <PackageReference Include="NETStandard.Library">
+      <Version>2.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

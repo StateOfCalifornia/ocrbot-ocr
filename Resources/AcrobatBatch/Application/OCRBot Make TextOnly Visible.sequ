@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://ns.adobe.com/acrobat/workflow/2012" title="OCRBot Make TextOnly Visible" description="" majorVersion="1" minorVersion="0">
+	<Group label="Untitled">
+		<Command name="CALS:Preflight" pauseBefore="false" promptUser="false">
+			<Items>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_ACT_TYPE" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_EMB_AT" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_FOLDER" type="text" value=""/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_REP_TYPE" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_OMIT_FIXUPS" type="boolean" value="false"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_DICTKEY" type="text" value=""/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_FINGERPRINT" type="text" value="Pcb952399ab107d5cf536512fc80c6bb0"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_ID" type="text" value="Pf46791722336e53bca80915f84a1dd8e"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_NAME" type="text" value="OCRBot Make TextOnly Visible"/>
+				<Item name="CALS_PREFLIGHT_CMD_REPOSITORY_ID" type="text" value="c116ea2f63c200f6681b0a23d1f9a02d"/>
+				<Item name="CALS_PREFLIGHT_CMD_REP_DISPLAY" type="boolean" value="false"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_ACT_TYPE" type="integer" value="2"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_EMB_AT" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_FOLDER" type="text" value="{SUC_FOLDER}"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_REP_TYPE" type="integer" value="0"/>
+			</Items>
+		</Command>
+		<Command name="WorkflowPlaybackSaveFiles" pauseBefore="false" promptUser="false"/>
+	</Group>
+</Workflow>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://ns.adobe.com/acrobat/workflow/2012" title="OCRBot ConvertCMYK" description="" majorVersion="1" minorVersion="0">
+	<Group label="Untitled">
+		<Command name="CALS:Preflight" pauseBefore="false" promptUser="true">
+			<Items>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_ACT_TYPE" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_EMB_AT" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_FOLDER" type="text" value=""/>
+				<Item name="CALS_PREFLIGHT_CMD_ERR_REP_TYPE" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_OMIT_FIXUPS" type="boolean" value="false"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_DICTKEY" type="text" value="P_13_ConvertallpagesintoCMYKimagesandpreservetextinformation"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_FINGERPRINT" type="text" value="P4a6c0212054a86d22146d03fc54fafcd"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_ID" type="text" value="Pb00fd49b129316283ce9690bf7aa58c8"/>
+				<Item name="CALS_PREFLIGHT_CMD_PROFILE_NAME" type="text" value="Convert all pages into CMYK images and preserve text information"/>
+				<Item name="CALS_PREFLIGHT_CMD_REPOSITORY_ID" type="text" value="50ce0e20ef13fd031fac1e764949e4ed"/>
+				<Item name="CALS_PREFLIGHT_CMD_REP_DISPLAY" type="boolean" value="false"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_ACT_TYPE" type="integer" value="2"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_EMB_AT" type="integer" value="0"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_FOLDER" type="text" value="{SUC_FOLDER}"/>
+				<Item name="CALS_PREFLIGHT_CMD_SUC_REP_TYPE" type="integer" value="0"/>
+			</Items>
+		</Command>
+	</Group>
+</Workflow>

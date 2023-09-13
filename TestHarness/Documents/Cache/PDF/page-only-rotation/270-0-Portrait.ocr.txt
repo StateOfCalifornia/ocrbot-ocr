@@ -1,0 +1,218 @@
+
+STATE OF CALIFORNIA
+STANDARD AGREEMENT AMENDMENT
+STD.213 A (rev 6:03)
+AGREEMENT NUMBER
+AMENDMENT NUMBER
+X
+CHECK HERE IF ADDITIONAL PAGES ARE ATTACHED 2 pages
+12-10-TS-01
+REGISTRATION NUMBER
+03
+1. This Agreement is entered into between the State Agency and Contractor named below:
+STATE AGENCY'S NAME
+California Department of Technology
+CONTRACTOR'S NAME
+AT&T Corp
+2.
+The term of this
+Agreement is:
+October 29, 2012 through October 28, 2018
+3. The maximum amount of this
+Agreement after this Amendment is: $ 0.00
+4.
+The parties mutually agree to this amendment as follows. All actions note below are by this reference made are
+part of the Agreement and incorporated herein:
+Upon signature of both parties and approval of Statewide Technology Procurement (STP), whichever is
+later, this amendment # 3 makes the following changes:
+a.
+Amendment 1 to Contractor's response to RFQP 12-001.1 Exhibit I-6, to include negotiated
+Subcategory 9.1 - FirstNet, (1 page)
+b. Attachment 1- PMAC Awarded Categories and Procurement Values (Amended) (1 page)
+All other terms and conditions shall remain the same.
+IN WITNESS THEREOF, this Agreement has been executed by the parties hereto.
+CONTRACTOR
+Department of
+Statewide Technology Procurement
+CONTRACTOR'S NAME (If other than an individual, state whether a corporation,
+partnership, etc.)
+California
+APPROVED
+160jou
+AT&T Corp
+BY (Authorized Signature)
+DATE SIGNED
+OCT 1 6 2018
+04/03/2018
+PRINTED NAME AND TITLE OF PERSON SIGNING
+SignedPAYat
+Mark Roese, AVP
+ADDRESS
+2700 Watt Ave., Room 4022 Sacramento, CA 95821
+Statewide Technology Procuren
+STATE OF CALIFORNIA
+Exempt Per:
+AGENCY NAME
+California Department of Technology
+BY (Authorized Signature)
+PRINTED NAME AND TITLE OF PERSON SIGNING
+71247 18
+Tiffany Angulo, Branch Chief, Statewide Technology Procurement
+ADDRESS
+P.O. Box 1810 MS-Y12 Rancho Cordova, CA 95741
+
+
+
+- Page: 2 -
+Limitless Potential
+CATEGORY 9 - Mandatory Specifications for Cellular Voice and Data
+This category for general purpose is to ensure Contractor has experience in providing cellular
+voice and data. Contractor must have knowledge and experience with the specifications in the
+below subcategory.
+Category
+Provide mark (X) for YES
+Subcategory
+Specifications and Procurement Value
+Contractor's Compliance
+Subcategory 9.1
+FirstNet
+X
+Provide and support broadband network with priority
+and preemption to public safety entities.
+Procurement Value (Annual Single Contract) 1 ($0 -
+X
+$25 000)
+Procurement Value (Annual Single Contract) 2 ($25,001 -
+X
+$250.000)
+Procurement Value (Annual Single Contract) 3 ($250,001 -
+X
+$1 000,000)
+Procurement Value (Annual Single Contract) 4 ($1.000.001
+$5.000.000)
+1X
+Procurement Value (Annual Single Contract) 5 ($5.000.001
+1X
+and above)
+Provide a mark (X) for the county(s) in which you are able to provide the category/subcategory.
+X All California Counties
+Alameda
+O Imperial
+OModoc
+San Bernardino
+Sonoma
+Alpine
+O Inyo
+Mono
+O San Diego
+O Stanislaus
+O Amador
+Kern
+Monterey
+O San Francisco
+Sutter
+OButte
+O Kings
+Napa
+San Joaquin
+Tehama
+O Calaveras
+Lake
+O Nevada
+O San Luis Obispo
+OTrinity
+Colusa
+Lassen
+Orange
+O San Mateo
+Tulare
+O Contra Costa
+Los Angeles
+O Placer
+Santa Clara
+Tuolumne
+O Del Norte
+Madera
+Plumas
+Santa Cruz
+Ventura
+O El Dorado
+O Marin
+Riverside
+Shasta
+Yolo
+O Fresno
+O Mariposa
+Sacramento
+Sierra
+O Yuba
+O Glenn
+O Mendocino
+Santa Barbara
+Siskiyou
+O Humboldt
+O Merced
+O San Benito
+Solano
+March 22, 2018
+Page 35
+Amendment
+The information contained herein is for use by authorized persons only
+October 2, 2012
+and is not for general distribution
+at&t
+
+
+
+- Page: 3 -
+STATE OF CALIFORNIA
+TELECOMMUNICATIONS SYSTEMS AND SERVICES
+DEPARTMENT OF TECHNOLOGY
+AT&T CORP. 12-10-TS-01.03
+RFQP 12-001, RFQP 12-001.1, RFQP 12-001.4 ADDENDUM #1
+ATTACHMENT 1 - PMAC AWARDED CATEGORIES AND PROCUREMENT VALUES AMENDMENT #3
+CATEGORY/SUBCATEGORY
+DOLLAR THRESHOLD
+1.1
+$5,000,000 >
+1.2
+$5,000,000 >
+1.3
+$5,000,000 >
+1.4
+$5,000,000 >
+1.5
+$5,000,000 >
+1.6
+$5,000,000 >
+2
+$5,000,000 >
+3
+$5,000,000 >
+4.1
+$5,000,000 >
+4.2
+$5,000,000 >
+5
+$5,000,000 >
+6.1
+$5,000,000 >
+6.2
+$5,000,000 >
+7
+$5,000,000 >
+8
+$5,000,000 >
+9
+$5,000,000 >
+9.1
+$5,000,000 >
+10.1
+$5,000,000 >
+10.2
+$5,000,000 >
+11
+$5,000,000 >
+12
+$5,000,000 >
+AMENDMENT .03

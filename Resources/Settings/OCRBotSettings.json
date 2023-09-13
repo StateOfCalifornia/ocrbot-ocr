@@ -1,0 +1,12 @@
+﻿{
+	"DontLayerPDF": false,
+	"DoAutoTag": false,
+	"OverwriteDestination": false,
+	"ShowTextOnly": false,
+	"UseOCRCache": false,
+	"InputFiles": null,
+	"InputDirectory": null,
+	"OutputDirectory": "",
+	"ServiceEndpoint": "",
+	"SubscriptionKey": ""
+}

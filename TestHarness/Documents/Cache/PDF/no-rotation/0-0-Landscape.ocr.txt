@@ -1,0 +1,8 @@
+
+Upper Left
+Upper Right
+Orientation: Portrait-Landscape 0
+Text: Portrait 0
+Size: 11 X 8.5
+Lower Left
+Lower Right
