@@ -1,0 +1,53 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "master"]
+  schedule:
+    - cron: '30 15 * * 5'
+
+permissions:
+      id-token: write
+      actions: read
+      contents: read
+      security-events: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+   
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'csharp' ]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    # Initializes the CodeQL tools for scanning.
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: ${{ matrix.language }}
+        config-file: ./.github/codeql/codeql-config.yml
+    
+    # Build applicaiton
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1
+    - name: Restore Packages
+      run: nuget restore CDT.WARS.sln
+
+    - name: Build solution
+      run: msbuild CDT.WARS.sln -t:rebuild -property:Configuration=Release /p:SignManifests=False
+
+    # Perform CodeQL analysis after build
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        category: "/language:${{matrix.language}}"
